@@ -44,7 +44,8 @@ The app calculates exactly what you need to do to maintain or reach the **75% ta
    git clone [https://github.com/lingeswar/mits-attendance-tracker.git]
    cd mits-attendance-tracker
    ---
-
+## DEVELOPED BY
+Lingeswar Reddy.C
 ## 📄 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for the full text. 
