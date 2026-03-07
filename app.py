@@ -465,7 +465,32 @@ st.markdown("""
   <h2>🔥 Smart Attendance Tracker</h2>
   <p>Track &bull; Analyze &bull; Plan Your Classes</p>
 </div>""", unsafe_allow_html=True)
-
+st.markdown("""
+<div style="
+    background:#ffebee;
+    border:3px solid red;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+    margin-bottom:20px;
+">
+    <span style="
+        font-size:30px;
+        font-weight:bold;
+        color:#b71c1c;
+    ">
+    ⚠️ Due to Technical Issue Attendance Showing May Be Wrong
+    </span>
+    <br><br>
+    <span style="
+        font-size:22px;
+        font-weight:bold;
+        color:#000;
+    ">
+    Previous Semester Subjects Are Also Being Added in IMS Portal
+    </span>
+</div>
+""", unsafe_allow_html=True)
 st.markdown('<h3 style="color:red;">🔐 Student Login Portal</h3>', unsafe_allow_html=True)
 st.markdown("""
 <div style="background:black; padding:20px; border-radius:10px;text-align:center;">
@@ -692,4 +717,5 @@ st.markdown("""
 <div class="footer">
   © 2026 MITS Attendance Tracker | Made with ❤️ for CSE Dept<br>
   Built by <strong>Lingeswar</strong>
+
 </div>""", unsafe_allow_html=True)
