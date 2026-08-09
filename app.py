@@ -9,6 +9,18 @@ from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeo
 
 
 # ═════════════════════════════════════════════════════════════════════════════
+# PAGE CONFIG
+# ═════════════════════════════════════════════════════════════════════════════
+
+st.set_page_config(
+    page_title="MITS IMS Attendance Portal",
+    page_icon="🎓",
+    layout="wide"
+)
+
+
+
+# ═════════════════════════════════════════════════════════════════════════════
 # SESSION STATE
 # ═════════════════════════════════════════════════════════════════════════════
 
@@ -18,17 +30,6 @@ for key, default in [
 ]:
     if key not in st.session_state:
         st.session_state[key] = default
-
-
-# ═════════════════════════════════════════════════════════════════════════════
-# PAGE CONFIG
-# ═════════════════════════════════════════════════════════════════════════════
-
-st.set_page_config(
-    page_title="MITS IMS Attendance Portal",
-    page_icon="🎓",
-    layout="wide"
-)
 
 
 # ═════════════════════════════════════════════════════════════════════════════
