@@ -1,3 +1,3 @@
 streamlit
 pandas
-playwright
+playwright==1.49.0
